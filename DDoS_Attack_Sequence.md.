@@ -14,13 +14,3 @@ sequenceDiagram
     Target-->>Network: Overwhelmed by excessive traffic
     Network-->>Target: More traffic arriving from multiple sources
     Target->>Target: Server crashes or becomes unresponsive
-```mermaid
-sequenceDiagram
-    participant Alice
-    participant Bob
-    participant Charlie
-
-    Alice->>Bob: Hello, Bob!
-    Bob->>Charlie: Forward message to Charlie
-    Charlie->>Alice: Hi Alice! How are you?
-    Alice->>Charlie: I'm good, thanks!
