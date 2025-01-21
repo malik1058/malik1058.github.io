@@ -10,13 +10,13 @@ This repository will hold assignments
 ```mermaid
 sequenceDiagram
     participant Attacker1 as Attacker 1
-    participant Attacker2 as Attacker 2
+    participant Botnet as Botnet
     participant Attacker3 as Attacker 3
     participant Target as Target Server
     participant Network as Internet
 
     Attacker1->>Network: Forward requests to Target
-    Attacker2->>Network: Forward requests to Target
+    Botnet->>Network: Forward requests to Target
     Attacker3->>Network: Forward requests to Target
     Network->>Target: Forward incoming traffic
     Target->>Target: Process incoming requests
