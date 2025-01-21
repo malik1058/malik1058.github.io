@@ -1,6 +1,2 @@
 ```mermaid
-sequenceDiagram
-participant Attacker
-participant BotNet
-participant compromised devices
-participant target servers
+flowchart TD
