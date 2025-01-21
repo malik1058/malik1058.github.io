@@ -2,5 +2,5 @@
 sequenceDiagram
 participant Attacker
 participant BotNet
-participant WebServer
-participant Firewall
+participant compromised devices
+participant target servers
