@@ -10,10 +10,10 @@ This repository will hold assignments
 
    ```mermaid
 sequenceDiagram
-participant Attacker -->Attacker
-participant BotNet-- BotNet
-participant WebServer -->WebServer
-participant Firewall -->Firewall
+participant Attacker as Attacker
+participant BotNet as BotNet
+participant WebServer as WebServer
+participant Firewall as Firewall
   
     Attacker->>Botnet: Command to start DDoS attack (Flood Webserver)
     Note right of Attacker: The Attacker controls the Botnet and instructs them to send traffic to the target server (Webserver).
