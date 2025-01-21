@@ -7,20 +7,18 @@ This repository will hold assignments
 - I enjoy playing video games, and modifying my car. Im also in school pursuing my cyber security degree
 ## website I recommend 
 - [IBM] (https://www.ibm.com/think/topics/cybersecurity) - a little something about cyber security and what it means.
-
 - sequenceDiagram
-    participant Attacker as Attacker
-    participant Botnet as Botnet (Multiple Bots)
-    participant Firewall as Firewall
-    participant Webserver as Webserver
+    participant Attacker1 as Attacker 1
+    participant Attacker2 as Attacker 2
+    participant Attacker3 as Attacker 3
+    participant Target as Target Server
+    participant Network as Internet
 
-    Attacker->>Botnet: Command to flood traffic
-    Botnet->>Webserver: Send large volume of traffic
-    Botnet->>Webserver: Send more requests
-    Webserver->>Firewall: Forward incoming requests
-    Firewall->>Firewall: Inspect traffic for DDoS
-    Firewall-->>Webserver: Allow or block requests based on rules
-    Webserver->>Webserver: Overwhelmed by requests
-    Webserver-->>Firewall: Alert: Resource overuse
-    Firewall->>Webserver: Continue blocking requests
-    Webserver->>Webserver: Server crashes or becomes unresponsive
+    Attacker1->>Network: Send requests to Target
+    Attacker2->>Network: Send requests to Target
+    Attacker3->>Network: Send requests to Target
+    Network->>Target: Forward incoming traffic
+    Target->>Target: Process incoming requests
+    Target-->>Network: Overwhelmed by excessive traffic
+    Network-->>Target: More traffic arriving from multiple sources
+    Target->>Target: Server crashes or becomes unresponsive
