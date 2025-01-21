@@ -15,9 +15,9 @@ sequenceDiagram
     participant Target as Target Server
     participant Network as Internet
 
-    Attacker1->>Network: Send requests to Target
-    Attacker2->>Network: Send requests to Target
-    Attacker3->>Network: Send requests to Target
+    Attacker1->>Network: Forward requests to Target
+    Attacker2->>Network: Forward requests to Target
+    Attacker3->>Network: Forward requests to Target
     Network->>Target: Forward incoming traffic
     Target->>Target: Process incoming requests
     Target-->>Network: Overwhelmed by excessive traffic
