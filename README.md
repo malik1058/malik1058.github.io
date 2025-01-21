@@ -7,7 +7,8 @@ This repository will hold assignments
 - I enjoy playing video games, and modifying my car. Im also in school pursuing my cyber security degree
 ## website I recommend 
 - [IBM] (https://www.ibm.com/think/topics/cybersecurity) - a little something about cyber security and what it means.
-- sequenceDiagram
+```mermaid
+sequenceDiagram
     participant Attacker1 as Attacker 1
     participant Attacker2 as Attacker 2
     participant Attacker3 as Attacker 3
