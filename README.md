@@ -15,7 +15,7 @@ participant BotNet as BotNet
 participant WebServer as WebServer
 participant Firewall as Firewall
   
-    Attacker->>Botnet: Command to start DDoS attack (Flood Webserver)
+    Attacker->>Botnet sends request to attack
     Note right of Attacker: The Attacker controls the Botnet and instructs them to send traffic to the target server (Webserver).
 
     Botnet->>Webserver: Send massive traffic (Flood of requests)
