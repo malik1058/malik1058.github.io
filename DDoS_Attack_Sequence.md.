@@ -1,4 +1,4 @@
 ```mermaid
 graph TD
-A[hi] ---> B[hi] 
+A[hi] --> B[hi] 
 A-->B 
