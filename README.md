@@ -7,12 +7,13 @@ This repository will hold assignments
 - I enjoy playing video games, and modifying my car. Im also in school pursuing my cyber security degree
 ## website I recommend 
 - [IBM] (https://www.ibm.com/think/topics/cybersecurity) - a little something about cyber security and what it means.
-- ```mermaid
+
+   ```mermaid
 sequenceDiagram
-participant Attacker
-participant BotNet
-participant WebServer
-participant Firewall
+participant Attacker --> Attacker
+participant BotNet--> BotNet
+participant WebServer --> WebServer
+participant Firewall -->Firewall
   
     Attacker->>Botnet: Command to start DDoS attack (Flood Webserver)
     Note right of Attacker: The Attacker controls the Botnet and instructs them to send traffic to the target server (Webserver).
