@@ -6,4 +6,4 @@ This repository will hold assignments
 ## My Intrest 
 - I enjoy playing video games, and modifying my car. Im also in school pursuing my cyber security degree
 ## website I recommend 
-- [ADI] (https://discover.armor.com) - a little something about cyber defense 
+- [ADI] (https://www.armor.com/) - a little something about cyber defense 
